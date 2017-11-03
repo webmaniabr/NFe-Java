@@ -1,21 +1,21 @@
-<%--
+/*
 JSON request:
 
 {
-  "chave":"45150819652219000198550990000000011442380343",
-  "correcao":"O CFOP correto é 5.102 referente a revenda tributada no mesmo estado.",
-  "ambiente":1
+   "chave":"45150819652219000198550990000000011442380343",
+   "motivo":"Cancelamento por motivos administrativos.",
+   "ambiente":"1"
 }
---%>
+*/
 
 OkHttpClient client = new OkHttpClient();
 
 MediaType mediaType = MediaType.parse("application/json");
-RequestBody body = RequestBody.create(mediaType, "{\"chave\": \"45150819652219000198550990000000011442380343\",\"correcao\": \"O CFOP correto é 5.102 referente a revenda tributada no mesmo estado.\",\"ambiente\": \"1\"}");
+RequestBody body = RequestBody.create(mediaType, "{\"chave\":\"45150819652219000198550990000000011442380343\",\"motivo\":\"Cancelamento por motivos administrativos.\",\"ambiente\":\"1\"}");
 
 Request request = new Request.Builder()
-  .url("https://webmaniabr.com/api/1/nfe/cartacorrecao/")
-  .post(body)
+  .url("https://webmaniabr.com/api/1/nfe/cancelar/")
+  .put(body)
   .addHeader("cache-control", "no-cache")
   .addHeader("content-type", "application/json")
   .addHeader("x-consumer-key", "SEU_CONSUMER_KEY")

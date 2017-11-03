@@ -1,4 +1,4 @@
-<%--
+/*
 JSON request:
 
 {
@@ -8,7 +8,7 @@ JSON request:
   "produtos": [ 2, 3 ],
   "ambiente": "1"
 }
---%>
+*/
 
 OkHttpClient client = new OkHttpClient();
 

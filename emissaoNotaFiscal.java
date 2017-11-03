@@ -1,4 +1,4 @@
-<%--
+/*
 JSON request:
 
 {
@@ -72,7 +72,7 @@ JSON request:
      "cep": "80540-180"
   }
 }
---%>
+*/
 
 OkHttpClient client = new OkHttpClient();
 
