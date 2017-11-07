@@ -8,8 +8,7 @@ Através do emissor de Nota Fiscal da WebmaniaBR®, você conta com a emissão e
 ## Requisitos
 
 - Contrate um dos planos de Nota Fiscal Eletrônica da WebmaniaBR® a partir de R$29,90/mês: [Assine agora mesmo](https://webmaniabr.com/smartsales/nota-fiscal-eletronica/).
-- Instalar a biblioteca [Okio](https://github.com/square/okio).
-- Instalar a biblioteca [OkHttp](https://github.com/square/okhttp).
+- Instalar as bibliotecas [Okio](https://github.com/square/okio) e [OkHttp](https://github.com/square/okhttp).
 - Realize a integração com o seu sistema.
 
 ## Exemplos
