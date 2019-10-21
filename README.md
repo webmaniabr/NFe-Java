@@ -1,13 +1,17 @@
+<p align="center">
+  <img src="https://wmbr.s3.amazonaws.com/img/logo_webmaniabr_github.png">
+</p>
+
 # NFe-Java
 
 Através do emissor de Nota Fiscal da WebmaniaBR®, você conta com a emissão e arquivamento das suas notas fiscais, cálculo automático de impostos, geração do Danfe para impressão e envio automático de e-mails para os clientes. Realize a integração com o seu sistema utilizando a nossa REST API.
 
-- Emissor de NF-e da WebmaniaBR®: [Saiba mais](https://webmaniabr.com/smartsales/nota-fiscal-eletronica/)
-- Documentação da REST API: [Visualizar](https://webmaniabr.com/docs/rest-api-nfe/)
+- Emissor de Nota Fiscal WebmaniaBR®: [Saiba mais](https://webmaniabr.com/nota-fiscal-eletronica/)
+- Documentação REST API: [Visualizar](https://webmaniabr.com/docs/rest-api-nfe/)
 
 ## Requisitos
 
-- Contrate um dos planos de Nota Fiscal Eletrônica da WebmaniaBR® a partir de R$29,90/mês: [Assine agora mesmo](https://webmaniabr.com/smartsales/nota-fiscal-eletronica/).
+- Contrate um dos planos de Nota Fiscal Eletrônica da WebmaniaBR® a partir de R$29,90/mês: [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
 - Instalar as bibliotecas [org.JSON](https://github.com/stleary/JSON-java) e [org.json.simple.parser.JSONParser](https://jar-download.com/maven-repository-class-search.php?search_box=%20org.json.simple.parser.JSONParser).
 - Realize a integração com o seu sistema.
 
