@@ -11,7 +11,7 @@ Através do emissor de Nota Fiscal da WebmaniaBR®, você conta com a emissão e
 
 ## Requisitos
 
-- Contrate um dos planos de Nota Fiscal Eletrônica da WebmaniaBR® a partir de R$34,90/mês: [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
+- Contrate um dos planos de Nota Fiscal Eletrônica da WebmaniaBR® a partir de R$29,90/mês: [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
 - Instalar as bibliotecas [org.JSON](https://github.com/stleary/JSON-java) e [org.json.simple.parser.JSONParser](https://jar-download.com/maven-repository-class-search.php?search_box=%20org.json.simple.parser.JSONParser).
 - Realize a integração com o seu sistema.
 
