@@ -11,7 +11,7 @@ Através do emissor de Nota Fiscal da Webmania®, você conta com a emissão e a
 
 ## Requisitos
 
-- Contrate um dos planos de Nota Fiscal Eletrônica da Webmania® (Teste 30 dias grátis): [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/).
+- Contrate um dos planos de Nota Fiscal Eletrônica da Webmania®: [Assine agora mesmo](https://webmaniabr.com/nota-fiscal-eletronica/#plans-section).
 - Instalar as bibliotecas [org.JSON](https://github.com/stleary/JSON-java) e [org.json.simple.parser.JSONParser](https://jar-download.com/maven-repository-class-search.php?search_box=%20org.json.simple.parser.JSONParser).
 - Realize a integração com o seu sistema.
 
